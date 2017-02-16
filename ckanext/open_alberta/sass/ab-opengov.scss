@@ -860,4 +860,10 @@ $active-bg-color: #005072;
     .modal-backdrop.in {
        opacity: 1;
     }
+
+    iframe.map {
+        width: 100%;
+	height: 30vw;
+    }
+
 }
