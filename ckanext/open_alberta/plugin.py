@@ -86,11 +86,11 @@ class OpenAlbertaPagesPlugin(plugins.SingletonPlugin):
                      _redirect_code='301 Moved Permanently')
 
 # /blog > /interact/
-        m.redirect('/blog', '/interact',
-                     _redirect_code='301 Moved Permanently')
+        #m.redirect('/blog', '/interact',
+        #             _redirect_code='301 Moved Permanently')
 
-        m.redirect('/blog/{url:.*}', '/interact/{url}',
-                     _redirect_code='301 Moved Permanently')
+        #m.redirect('/blog/{url:.*}', '/interact/{url}',
+        #             _redirect_code='301 Moved Permanently')
 
 # /apps-for-alberta > /interact/apps-for-alberta
         m.redirect('/apps-for-alberta', '/interact/apps-for-alberta',
